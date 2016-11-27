@@ -1,0 +1,23 @@
+{
+  "name": "sseerver",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node --harmony server.js",
+    "lint": "standard index.js client.js | standard-reporter  --stylish",
+    "lint:fix": "standard --fix index.js client.js | standard-reporter  --stylish"
+  },
+  "dependencies": {
+    "browserify": "^13.1.1",
+    "create-html": "^1.1.0",
+    "es2020": "^1.1.9",
+    "micro": "^6.1.0",
+    "postcss": "^5.2.6",
+    "sse": "^0.0.6"
+  },
+  "devDependencies": {
+    "standard": "^8.6.0",
+    "standard-reporter": "^1.0.5"
+  }
+}
