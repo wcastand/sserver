@@ -1,4 +1,4 @@
 const test = require('./test');
 
-console.log("tese");
+console.log("tere");
 test();
